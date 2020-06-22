@@ -1,0 +1,37 @@
+[21-Jun-2020 16:40:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_menu' not found or invalid function name in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\class-wp-hook.php on line 287
+[21-Jun-2020 16:40:21 UTC] PHP Stack trace:
+[21-Jun-2020 16:40:21 UTC] PHP   1. {main}() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-cron.php:0
+[21-Jun-2020 16:40:21 UTC] PHP   2. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-cron.php:44
+[21-Jun-2020 16:40:21 UTC] PHP   3. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-load.php:37
+[21-Jun-2020 16:40:21 UTC] PHP   4. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-config.php:77
+[21-Jun-2020 16:40:21 UTC] PHP   5. do_action() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-settings.php:540
+[21-Jun-2020 16:40:21 UTC] PHP   6. WP_Hook->do_action() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\plugin.php:478
+[21-Jun-2020 16:40:21 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\class-wp-hook.php:311
+[21-Jun-2020 16:40:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_menu' not found or invalid function name in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\class-wp-hook.php on line 287
+[21-Jun-2020 16:40:21 UTC] PHP Stack trace:
+[21-Jun-2020 16:40:21 UTC] PHP   1. {main}() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:0
+[21-Jun-2020 16:40:21 UTC] PHP   2. require() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:17
+[21-Jun-2020 16:40:21 UTC] PHP   3. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-blog-header.php:13
+[21-Jun-2020 16:40:21 UTC] PHP   4. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-load.php:37
+[21-Jun-2020 16:40:21 UTC] PHP   5. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-config.php:77
+[21-Jun-2020 16:40:21 UTC] PHP   6. do_action() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-settings.php:540
+[21-Jun-2020 16:40:21 UTC] PHP   7. WP_Hook->do_action() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\plugin.php:478
+[21-Jun-2020 16:40:21 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\class-wp-hook.php:311
+[21-Jun-2020 20:13:43 UTC] PHP Parse error:  syntax error, unexpected 'montheme_supports' (T_STRING) in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\functions.php on line 3
+[21-Jun-2020 20:13:45 UTC] PHP Parse error:  syntax error, unexpected 'montheme_supports' (T_STRING) in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\functions.php on line 3
+[21-Jun-2020 20:14:45 UTC] PHP Parse error:  syntax error, unexpected 'montheme_supports' (T_STRING) in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\functions.php on line 3
+[21-Jun-2020 20:15:45 UTC] PHP Parse error:  syntax error, unexpected 'montheme_supports' (T_STRING) in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\functions.php on line 3
+[22-Jun-2020 11:52:36 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 89
+[22-Jun-2020 11:52:36 UTC] PHP Stack trace:
+[22-Jun-2020 11:52:36 UTC] PHP   1. {main}() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:0
+[22-Jun-2020 11:52:36 UTC] PHP   2. require() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:17
+[22-Jun-2020 11:52:36 UTC] PHP   3. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-blog-header.php:19
+[22-Jun-2020 11:52:36 UTC] PHP   4. include() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\template-loader.php:106
+[22-Jun-2020 11:52:36 UTC] PHP   5. the_field() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\single-logement.php:29
+[22-Jun-2020 12:02:48 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 89
+[22-Jun-2020 12:02:48 UTC] PHP Stack trace:
+[22-Jun-2020 12:02:48 UTC] PHP   1. {main}() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:0
+[22-Jun-2020 12:02:48 UTC] PHP   2. require() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\index.php:17
+[22-Jun-2020 12:02:48 UTC] PHP   3. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-blog-header.php:19
+[22-Jun-2020 12:02:48 UTC] PHP   4. include() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\template-loader.php:106
+[22-Jun-2020 12:02:48 UTC] PHP   5. the_field() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\single-logement.php:29
