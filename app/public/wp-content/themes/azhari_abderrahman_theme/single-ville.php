@@ -12,6 +12,8 @@
             <h3>Liste des logements de cette ville : </h3>
             <?php $ville_current = get_the_title(); ?>
 
+            <div class="row">
+
 			<?php $loop = new WP_Query( array( 'post_type' => 'logement') ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<?php $ville_logement = get_field("ville",get_the_ID());
@@ -41,7 +43,7 @@
 				
 					 <?php }?>     
 				<?php endwhile; wp_reset_query(); ?>
-
+</div>
 
         <?php endwhile ?>
 
