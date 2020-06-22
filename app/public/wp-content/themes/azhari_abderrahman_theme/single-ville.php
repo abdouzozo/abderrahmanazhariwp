@@ -18,13 +18,27 @@
 						if(get_the_title( $ville_logement ) == $ville_current){
 
 					?>
-				<a href="<?php the_permalink() ?>">
-						<img src=" <?php echo get_the_post_thumbnail_url(); ?>" />
-					</a>
-					
-						<h1>
-							<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
-						</h1>
+
+					<div class="column">
+            <div class="center">
+                <div class="property-card-nohover">
+                    <a href="#">
+                        <div class="property-image" >
+                            
+                                <img src=" <?php echo get_the_post_thumbnail_url(); ?>" />
+                            
+                        </div>
+                    </a>
+                    <div class="property-description">
+                        <h5> <a href="<?php the_permalink() ?>"><?php the_title() ?></a> </h5>
+                        
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+
+				
 					 <?php }?>     
 				<?php endwhile; wp_reset_query(); ?>
 

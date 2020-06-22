@@ -6,13 +6,23 @@
     <div class="row">
         <?php while ($monPost->have_posts()) : $monPost->the_post(); ?>
               
-                
+                <div class="column">
+            <div class="center">
+                <div class="property-card-nohover">
+                    
+                    <div class="property-description">
+                        <h5> <?php the_title() ?> </h5>
+                        <p>Code postal: <?php the_field("code_postal") ?>?>. 
+                            
+                            <a href="<?php the_permalink() ?>" > Details de la ville </a>
+                        </p>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
                
-                <h2><?php the_title() ?></h2>
-                        <h3 >
-                           Code postal: <?php the_field("code_postal") ?>
-                        </h3>
-                        <a href="<?php the_permalink() ?>" > Details de la ville </a>
+        
                
 <?php endwhile; wp_reset_query(); ?>
 
