@@ -3,6 +3,7 @@
 <?php if (have_posts()): ?>
         <?php while(have_posts()): the_post(); ?>
             <h1><?php the_field("nom") ?></h1>
+            <?php the_post_thumbnail('medium') ?>
             <p>
             	<?php the_field("description")?>
             </p>

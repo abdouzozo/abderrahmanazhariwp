@@ -9,7 +9,25 @@
             </p>
             <h3><?php the_field("code_postal")?></h3>
            
-            <?php the_content() ?>
+            <h3>Liste des logements de cette ville : </h3>
+            <?php $ville_current = get_the_title(); ?>
+
+			<?php $loop = new WP_Query( array( 'post_type' => 'logement') ); ?>
+				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+					<?php $ville_logement = get_field("ville",get_the_ID());
+						if(get_the_title( $ville_logement ) == $ville_current){
+
+					?>
+				<a href="<?php the_permalink() ?>">
+						<img src=" <?php echo get_the_post_thumbnail_url(); ?>" />
+					</a>
+					
+						<h1>
+							<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+						</h1>
+					 <?php }?>     
+				<?php endwhile; wp_reset_query(); ?>
+
 
         <?php endwhile ?>
 

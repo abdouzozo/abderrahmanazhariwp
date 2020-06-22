@@ -35,3 +35,4 @@
 [22-Jun-2020 12:02:48 UTC] PHP   3. require_once() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-blog-header.php:19
 [22-Jun-2020 12:02:48 UTC] PHP   4. include() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-includes\template-loader.php:106
 [22-Jun-2020 12:02:48 UTC] PHP   5. the_field() C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\single-logement.php:29
+[22-Jun-2020 12:50:10 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\Users\abdou\Local Sites\abderrahmanazhariwp\app\public\wp-content\themes\azhari_abderrahman_theme\single-ville.php on line 32
